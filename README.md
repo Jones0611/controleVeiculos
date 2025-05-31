@@ -88,25 +88,45 @@ java -jar target/controle-veiculos.jar
 
 🧩 Estrutura do Projeto
 mvc-veiculos/
+
 ├── src/
+
 │   ├── Controller/
+
 │   │   ├── Conexao.java       # Gerencia conexão com o banco
+
 │   │   └── DAO.java           # Padrão Data Access Object
+
 │   ├── Model/
+
 │   │   ├── Usuario.java       # Entidade usuário
+
 │   │   └── Veiculo.java       # Entidade veículo
+
 │   └── View/
+
 │       ├── Login.java         # Tela de autenticação
+
 │       ├── TelaPrincipal.java # Menu principal
+
 │       ├── Pesquisar.java     # Tela de pesquisa
+
 │       ├── Alterar.java       # Tela de edição
+
 │       ├── Delete.java        # Tela de exclusão
+
 │       ├── ConsultarTodos.java# Listagem completa
+
 │       ├── CadastroUser.java  # Cadastro de usuários
+
 │       ├── lupa2.png          # Ícone de pesquisa
+
 │       └── lupa3.png          # Ícone alternativo
+
 └── mvc/
+
     └── MVC.java               # Ponto de entrada
+    
 
 🧠 Arquitetura MVC
 Model (Modelo)
